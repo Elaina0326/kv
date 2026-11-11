@@ -1,0 +1,6 @@
+build/
+build-*/
+data/
+tmp_test/
+*.wal
+*.log
