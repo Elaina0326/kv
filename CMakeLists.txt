@@ -32,6 +32,15 @@ endif()
 set(RAFTKV_CORE_SOURCES
     src/common/log.cc
     src/common/thread_pool.cc
+    src/net/event_loop.cc
+    src/net/tcp_server.cc
+    src/rpc/rpc_server.cc
+    src/rpc/rpc_client.cc
+    src/rpc/messages.cc
+    src/storage/wal.cc
+    src/storage/kv_store.cc
+    src/raft/raft.cc
+    src/server/kv_server.cc
 )
 
 add_library(raftkv_core STATIC ${RAFTKV_CORE_SOURCES})
