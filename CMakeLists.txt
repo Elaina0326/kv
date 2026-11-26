@@ -40,6 +40,7 @@ set(RAFTKV_CORE_SOURCES
     src/storage/wal.cc
     src/storage/kv_store.cc
     src/raft/raft.cc
+    src/client/kv_client.cc
     src/server/kv_server.cc
 )
 
